@@ -8,12 +8,10 @@
 }
 
 .font {
-
     font-family: 'Roboto';
 }
 
 .fontNav {
-
     font-family: 'Roboto';
     font-size: 35px;
     color: #353640;
@@ -34,7 +32,74 @@
     padding-right: 300px;
 }
 
+.botao{
+    height: 50px;
+}
+
+.placeHolderObras{
+    padding: 200px 0px 0px 0px;
+    height: 400px;
+}
+
+.separacao{
+    color: white;
+}
+
+.titulo{
+    color: white;
+    padding: 200px 0px 0px 30px;
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+
+.text{
+    color: white;
+    font-family: 'Roboto';
+}
+
+.filtro{
+    padding: 200px 600px 0px 10px;
+    color: #46BF95;
+}
+
 .alta {
-    background-color: #72FFDB;
-    padding: 0px; /*#1A987D #72FFDB #50F3B1 #4ACA9D */
+
+    width: 320px;
+    background-color: #46BF95;
+    margin-top: 200px ; /*#1A987D #72FFDB #50F3B1 #4ACA9D */
+    padding-right: 100px;
+    float: right;
+
+}
+
+.alta ul {
+
+    list-style: none;
+    padding-left: 0px;
+}
+
+.alta img {
+    width: 255px;
+    height: 300px;
+    padding-left: 20px ;
+}
+
+
+.alta h3 {
+
+    text-align: center;
+    padding-left: 80px ;
+
+}
+
+.altaFont {
+
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #353640;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.altaFont:hover, .fontNav:focus {
+    color: #f0f0f0;
 }
