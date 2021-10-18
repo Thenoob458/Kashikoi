@@ -12,11 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
-<body class="container">
+<body class="backgroundPage">
 
     <nav class="navbar fixed-top navbar-expand-lg justify-content-between header" >
-        <a class="navbar-brand logo" href="homePage.html">
-            <img class="logo" src="images/LOGO.png">
+        <a class="navbar-brand logo espacamento" href="homePage.html">
+            <img class=" logo " src="images/LOGO.png">
         </a>
 
         <ul class="navbar-nav">
@@ -24,38 +24,85 @@
                 <a class="fontNav" href="homePage.html">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="fontNav" href="obra.html">OBRAS</a>
+                <a class="fontNav" href="search.html">OBRAS</a>
             </li>
         </ul>
 
-        <form class="form-check-inline">
-            <input class="form-control form-control-lg" style="border-radius: 100px; border-color: #000000" type="search" placeholder="Pesquisar" aria-label="Search">
-        </form>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <div>
+            <form class="form-check-inline">
+                <input class="form-control form-control-lg" style="border-radius: 100px; border-color: #000000" type="search" placeholder="Pesquisar" aria-label="Search">
+            </form>
+            <button class="btn btn-outline-success botao" type="submit">Search</button>
+        </div>
     </nav>
 
 
-    <nav class=" navbar alta fixed-end">
+    <nav class=" navbar alta fixed-end ">
         <ul>
 
             <h3 class="font">Em Alta</h3>
 
-            <h2>1°</h2>
-            <a href="homePage.html"><img src="images/kabocha.jpg"></a>
-            <a href="#" class="altaFont">The Kabocha Wine</a>
+            <h class="separacaoBlack"> __________________________________________</h>
 
-            <h2>2°</h2>
-            <a href="homePage.html"><img src="images/shed.jpg"></a>
-            <a href="#" class="altaFont">Shed! Ryugasaki-san</a>
+            <h2 style="color: #E8D413">1°</h2>
+            <a href="obra.html"><img src="images/kabocha.jpg"></a>
+            <a href="obra.html" class="altaFont">The Kabocha Wine</a>
 
-            <h2>3°</h2>
-            <a href="homePage.html"><img src="images/linguistic.jpg"></a>
-            <a href="#" class="altaFont">Heterogeneous Linguistics</a>
+            <h2 style="color: #B1C0BB">2°</h2>
+            <a href="obra.html"><img src="images/shed.jpg"></a>
+            <a href="obra.html" class="altaFont">Shed! Ryugasaki-san</a>
+
+            <h2 style="color: #BC873E">3°</h2>
+            <a href="obra.html"><img src="images/linguistic.jpg"></a>
+            <a href="obra.html" class="altaFont">Heterogeneous Linguistics</a>
+
+            <h class="separacaoBlack"> __________________________________________</h>
+
+            <h3 class="font">
+                <a href="#">Recomendações</a>
+            </h3>
 
         </ul>
     </nav>
 
-    <main class="col-md-9 col-lg-9 col-xl-12"></main>
+    <main class="col-md-9 col-lg-9 col-sm-8 col-xs-12 alta container float-start ">
+
+        <h1 class="text-md-start">Atualizações</h1>
+
+        <hr class="separacao">
+
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 text-center">
+            <a href="#">
+                <img src="images/shuuma.jpg" alt="imagem do produto 1">
+                <label>Produto 1</label>
+            </a>
+
+            <a href="#">
+                <img src="images/ballroom.jpg" alt="imagem do produto 2">
+                <label>Produto 2</label>
+            </a>
+
+            <a href="#">
+                <img src="images/silver.jpg" alt="imagem do produto 3">
+                <label>Produto 3</label>
+            </a>
+
+            <a href="#">
+                <img src="images/shed.jpg" alt="imagem do produto 4">
+                <label>Produto 4</label>
+            </a>
+
+            <a href="#">
+                <img src="images/doro.jpg" alt="imagem do produto 5">
+                <label>Produto 5</label>
+            </a>
+
+            <a href="#">
+                <img src="images/spirit.jpg" alt="imagem do produto 6">
+                <label>Produto 6</label>
+            </a>
+        </div>
+    </main>
 
 </body>
 </html>

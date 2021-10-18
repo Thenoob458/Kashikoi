@@ -1,10 +1,11 @@
-.container {
+.backgroundPage {
     background-color: #353640; /*cor do background*/
 }
 
 .header {
     height: 150px;
     background-color: #1A987D;
+
 }
 
 .font {
@@ -22,10 +23,15 @@
     color: #f0f0f0;
 }
 
+.espacamento {
+
+    margin-left: 85px;
+}
+
 .logo {
     width: 260px;
     height: 137px;
-    padding-left: 55px; /*#1A987D #72FFDB #50F3B1 #4ACA9D */
+     /*#1A987D #72FFDB #50F3B1 #4ACA9D */
 }
 
 .search {
@@ -43,6 +49,12 @@
 
 .separacao{
     color: white;
+}
+
+.separacaoBlack{
+    margin-left: 15px;
+
+    color: #353640;
 }
 
 .titulo{
@@ -82,13 +94,15 @@
     width: 255px;
     height: 300px;
     padding-left: 20px ;
+    float: none;
+
 }
 
 
 .alta h3 {
 
     text-align: center;
-    padding-left: 80px ;
+
 
 }
 
@@ -101,5 +115,8 @@
     padding: 0.5rem 1rem;
 }
 .altaFont:hover, .fontNav:focus {
-    color: #f0f0f0;
+    color: #000000;
 }
+
+
+
