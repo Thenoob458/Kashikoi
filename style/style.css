@@ -7,6 +7,23 @@
     background-color: #1A987D;
 }
 
+.font {
+
+    font-family: 'Roboto';
+}
+
+.fontNav {
+
+    font-family: 'Roboto';
+    font-size: 35px;
+    color: #353640;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.fontNav:hover, .fontNav:focus {
+    color: #f0f0f0;
+}
+
 .logo {
     width: 260px;
     height: 137px;
@@ -14,7 +31,7 @@
 }
 
 .search {
-    padding-right: 150px;
+    padding-right: 300px;
 }
 
 .alta {
