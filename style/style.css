@@ -1,0 +1,25 @@
+.container {
+
+    background-color: #353640;
+}
+
+.header {
+
+    background-color: #1A987D;
+}
+
+.logo {
+
+    padding-left: 55px; /*#1A987D #72FFDB #50F3B1 #4ACA9D */
+}
+
+.search {
+
+    padding-right: 150px;
+}
+
+.alta {
+
+    background-color: #72FFDB;
+    padding: 0px; /*#1A987D #72FFDB #50F3B1 #4ACA9D */
+}
