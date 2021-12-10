@@ -13,16 +13,16 @@
         <h class="separacaoBlack"> __________________________________________</h>
 
         <h2 style="color: #E8D413">1°</h2>
-        <a href="obra.html"><img src="/images/kabocha.jpg"></a>
-        <a href="obra.html" class="altaFont">The Kabocha Wine</a>
+        <a href="/obra/kabocha"><img src="/images/kabocha.jpg"></a>
+        <a href="/obra" class="altaFont">The Kabocha Wine</a>
 
         <h2 style="color: #B1C0BB">2°</h2>
-        <a href="obra.html"><img src="/images/shed.jpg"></a>
-        <a href="obra.html" class="altaFont">Shed! Ryugasaki-san</a>
+        <a href="/obra/shed"><img src="/images/shed.jpg"></a>
+        <a href="/obra" class="altaFont">Shed! Ryugasaki-san</a>
 
         <h2 style="color: #BC873E">3°</h2>
-        <a href="obra.html"><img src="/images/linguistic.jpg"></a>
-        <a href="obra.html" class="altaFont">Heterogeneous Linguistics</a>
+        <a href="/obra/linguistic"><img src="/images/linguistic.jpg"></a>
+        <a href="/obra" class="altaFont">Heterogeneous Linguistics</a>
 
         <h class="separacaoBlack"> __________________________________________</h>
 
@@ -44,56 +44,56 @@
     <hr class="separacaoBlack">
 
     <div class="box">
-        <a href="obra.html">
+        <a href="/obra/shuuma">
             <img src="/images/shuuma.jpg" alt="imagem do produto 1">
             <label class="alinhando altaFont">Shoujo Shuumatsu Ryokou</label>
         </a>
     </div>
 
     <div class="box">
-        <a href="obra.html">
+        <a href="/obra/ballroom">
             <img src="/images/ballroom.jpg" alt="imagem do produto 2">
             <label class="alinhando altaFont">Ballroom e Youkoso</label>
         </a>
     </div>
 
     <div class="box">
-        <a href="obra.html">
+        <a href="/obra/silver">
             <img src="/images/silver.jpg" alt="imagem do produto 3">
             <label class="alinhando altaFont">Gin no Saji</label>
         </a>
     </div>
 
     <div class="box">
-        <a href="obra.html">
+        <a href="/obra/shed">
             <img src="/images/shed.jpg" alt="imagem do produto 4">
             <label class="alinhando altaFont">Shed! Ryugasaki-san</label>
         </a>
     </div>
 
     <div class="box">
-        <a href="obra.html">
+        <a href="/obra/doro">
             <img src="/images/doro.jpg" alt="imagem do produto 5">
             <label class="alinhando altaFont">Dorohedoro</label>
         </a>
     </div>
 
     <div class="box">
-        <a href="obra.html">
+        <a href="/obra/spirit">
             <img src="/images/spirit.jpg" alt="imagem do produto 6">
             <label class="alinhando altaFont">Spirit Circle</label>
         </a>
     </div>
 
     <div class="box">
-        <a href="obra.html">
-            <img src="/images/linguistic.jpg" alt="imagem do produto 6">
+        <a href="/obra/linguistic">
+            <img src='/images/linguistic.jpg' alt="imagem do produto 6">
             <label class="alinhando altaFont">Heterogeneous Linguistics</label>
         </a>
     </div>
 
     <div class="box">
-        <a href="obra.html">
+        <a href="/obra/kabocha">
             <img src="/images/kabocha.jpg" alt="imagem do produto 6">
             <label class="alinhando altaFont">The Kabocha Wine</label>
         </a>

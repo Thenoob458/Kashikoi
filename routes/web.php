@@ -13,6 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\RegistrationController;
+
 Route::get('/', function () {
     return view('home');
+});
+
+Route::get('/catalog/add', [RegistrationController::class, 'add']);
+
+Route::get('/obra/{name}', function ($name) {
+    return view('obra', ['name' => $name]);
+});
+
+Route::get('/recomenda', function () {
+    return view('recomenda');
+});
+
+Route::get('/search', function () {
+    return view('search');
 });

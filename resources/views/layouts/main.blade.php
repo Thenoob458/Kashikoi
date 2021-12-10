@@ -28,10 +28,10 @@
 
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="fontNav" href="index.html">HOME</a>
+                <a class="fontNav" href="/">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="fontNav" href="search.html">OBRAS</a>
+                <a class="fontNav" href="/obra">OBRAS</a>
             </li>
         </ul>
 
