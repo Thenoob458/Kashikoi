@@ -27,7 +27,7 @@
         <h class="separacaoBlack"> __________________________________________</h>
 
         <h3>
-            <a href="recomendacoes.html" class="altaFont" >Recomendações</a>
+            <a href="/recomenda" class="altaFont" >Recomendações</a>
         </h3>
 
     </ul>

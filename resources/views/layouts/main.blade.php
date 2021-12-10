@@ -22,7 +22,7 @@
 
 <header>
     <nav class="navbar fixed-top navbar-expand-lg justify-content-between header" >
-        <a class="navbar-brand logo espacamento" href="index.html">
+        <a class="navbar-brand logo espacamento" href="/">
             <img class=" logo " src="/images/LOGO.png" alt="logo kashikoi">
         </a>
 
@@ -37,9 +37,11 @@
 
         <div>
             <form class="form-check-inline">
-                <input class="form-control form-control-lg" style="border-radius: 100px; border-color: #000000" type="search" placeholder="Pesquisar" aria-label="Search">
+                <input class="form-control form-control-lg" style="border-radius: 100px; border-color: #000000" name="pesquisa" type="search" placeholder="Pesquisar" aria-label="Search">
+
+                <button class="botaoNav fas fa-search " type="submit" href="/search" > Pesquisar</button>
             </form>
-            <button class="botaoNav fas fa-search " type="submit"> Pesquisar</button>
+
         </div>
     </nav>
 </header>
