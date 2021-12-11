@@ -8,13 +8,13 @@
     <table>
         <tr>
             <td>
-                <a href="obra.html">
+                <a href="/obra/doro">
                     <img src="/images/doro.jpg" style="height: 900px; padding: 200px 200px 10px"/>
                 </a>
             </td>
 
             <td>
-                <a href="obra.html">
+                <a href="/obra/silver">
                     <img src="/images/silver.jpg" style="height: 900px; padding: 200px 60px 10px"/>
                 </a>
             </td>

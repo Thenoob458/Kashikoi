@@ -33,15 +33,24 @@
             <li class="nav-item">
                 <a class="fontNav" href="/obra">OBRAS</a>
             </li>
+            <li class="nav-item">
+                <a class="fontNav" href="/add">Adicionar obras</a>
+            </li>
+            <li class="nav-item">
+                <a class="fontNav" href="/login">LOGIN</a>
+            </li>
+            <li class="nav-item">
+                <a class="fontNav" href="/signin">SIGNIN</a>
+            </li>
         </ul>
 
         <div>
             <form class="form-check-inline">
                 <input class="form-control form-control-lg" style="border-radius: 100px; border-color: #000000" name="pesquisa" type="search" placeholder="Pesquisar" aria-label="Search">
 
-                <button class="botaoNav fas fa-search " type="submit" href="/search" > Pesquisar</button>
-            </form>
 
+            </form>
+            <button class="botaoNav fas fa-search " type="submit" href="/search" > Pesquisar</button>
         </div>
     </nav>
 </header>

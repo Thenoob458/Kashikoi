@@ -15,14 +15,22 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\RegistrationController;
 
+use App\Http\Controllers\ObraController;
+
 Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/catalog/add', [RegistrationController::class, 'add']);
+Route::get('/add', [RegistrationController::class, 'add']);
 
-Route::get('/obra/{name}', function ($name) {
-    return view('obra', ['name' => $name]);
+Route::get('/obra/{name}', [ObraController::class, 'information']);
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/signin', function () {
+    return view('signin');
 });
 
 Route::get('/recomenda', function () {

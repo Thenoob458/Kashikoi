@@ -10,7 +10,7 @@ class RegistrationController extends Controller
     public function add() {
 
 
-        return view('catalog.add');
+        return view('add');
     }
 
 }
